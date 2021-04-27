@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="./assets/site-title-carousel/WEBpic.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,17 +21,18 @@
 
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/Style.css">
+    
 
 </head>
 
 <body>
      <!-- --------------Address - Bar---------------- -->
-     <div class="contact-bar">
+     <div class="contact-bar ">
         <li><i class="fa fa-compass"></i> Accra Technical University - Barnes Road, Computer Science Department</li>
         <li><i class="fa fa-phone"></i> +233550746180/+233205391507</li>
         <li><i class="fa fa-envelope"></i> rentsmart.365@gmail.com</li>
         <div class="login">
-          <a href=""><i class="fas fa-user"></i> Login/Sign Up</a>
+          <a href="./pages/signup.html"><i class="fas fa-user"></i> Login/Sign Up</a>
         </div>
             <!-- Search - Bar -->
             <form onsubmit="event.preventDefault();" role="search" aria-label="search" class="nav-search">
@@ -43,7 +45,7 @@
     <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
     <nav class="nav">
-        <div class="nav-menu flex-row">
+        <div class="nav-menu  flex-row">
             <div class="nav-brand">
                 <a href="#" class="text-gray gradient-text">Rent Smart</a>
             </div>
@@ -63,7 +65,7 @@
                     <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
-                    <li class="nav-link">
+                    <li class="nav-link ">
                         <a href="#">Pages</a>
                     </li>
                     <li class="nav-link">
@@ -176,15 +178,17 @@
           <!-- Car - Reservation - Section -->
   <div class="car-reservation">
     <div class="reservation text-center">
-        <h3>ENJOY YOUR JOURNEY</h3>
-        <h3>WITH OUR <span style="color: rgb(255, 102, 0);">COMFORTABLE CARS.</span> </h3>
-        <p>Serving people from the last 10 years with a great sucess</p>
-        <p class="watermark"> RENT A CAR</p>
-
-        <img src="./assets/site-title-carousel/carpng.png" alt="">
+        <h3 data-aos="fade-left" data-aos-delay="200">ENJOY YOUR JOURNEY</h3>
+        <h3 data-aos="fade-left" data-aos-delay="200">WITH OUR <span style="color: rgb(255, 102, 0);">COMFORTABLE CARS.</span> </h3>
+        <p data-aos="fade-right" data-aos-delay="200">Serving people from the last 10 years with a great sucess</p>
+        <p class="watermark" data-aos="fade-right" data-aos-delay="200"> RENT A CAR</p>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+             <img src="./assets/site-title-carousel/carpng.png" alt="">
+        </div>
+       
     </div>
 
-    <div class="reservation-banner rsrvd-container ">
+    <div class="reservation-banner rsrvd-container " data-aos="slide-up" data-aos-delay="200">
         <div class="d-flex">
             <div class="icon">
                 <img src="./assets/site-title-carousel/car20_112837.svg" class="me-2" alt="">
@@ -198,19 +202,19 @@
                 <select class="form-control form-control-sm inner-bg" name="car-list" id="" aria-placeholder="select your car">
                     <option value="Select Your Car" selected>Select Your Car</option>
                     <option value="car1">
-                        Car 1
+                        Mercedes Benz AMG
                     </option>
                     <option value="car1">
-                        Car 1
+                        Fiat 2020 Model
                     </option>
                     <option value="car1">
-                        Car 1
+                        Jeep 2021 Model
                     </option>
                     <option value="car1">
-                        Car 1
+                        Toyota
                     </option>
                     <option value="car1">
-                        Car 1
+                        Nissan
                     </option>
                 </select>
     
@@ -236,15 +240,15 @@
                     <h1 id="fleet-lb">Our Fleet</h1>
                     <div class="owl-carousel owl-theme blog-post">
                         <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="./assets/car-lists/benz.jpg" alt="post-1">
+                            <img src="./assets/car-lists/benz.jpg" alt="post-1" height="290rem">
                             <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
+                                <h3>Mercedes Benz AMG</h3>
+                                <button class="btn btn-blog">GHS 5500</button>
+                                <span>24hrs</span>
                             </div>
                         </div>
                         <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
-                            <img src="./assets/car-lists/custom-img1.jpg" alt="post-1">
+                            <img src="./assets/car-lists/custom-img1.jpg" alt="post-1" height="290rem">
                             <div class="blog-title">
                                 <h3>London Fashion week's continued the evolution</h3>
                                 <button class="btn btn-blog">Fashion</button>
@@ -252,7 +256,7 @@
                             </div>
                         </div>
                         <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
-                            <img src="./assets/car-lists/custom-img2.jpg" alt="post-1">
+                            <img src="./assets/car-lists/custom-img2.jpg" alt="post-1" height="290rem">
                             <div class="blog-title">
                                 <h3>London Fashion week's continued the evolution</h3>
                                 <button class="btn btn-blog">Fashion</button>
@@ -260,7 +264,7 @@
                             </div>
                         </div>
                         <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="./assets/car-lists/jeep.jpg" alt="post-1">
+                            <img src="./assets/car-lists/jeep.jpg" alt="post-1" height="290rem">
                             <div class="blog-title">
                                 <h3>London Fashion week's continued the evolution</h3>
                                 <button class="btn btn-blog">Fashion</button>
@@ -268,7 +272,7 @@
                             </div>
                         </div>
                          <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="./assets/car-lists/custom-img3.jpg" alt="post-1">
+                            <img src="./assets/car-lists/custom-img3.jpg" alt="post-1" height="290rem">
                             <div class="blog-title">
                                 <h3>London Fashion week's continued the evolution</h3>
                                 <button class="btn btn-blog">Fashion</button>
@@ -276,7 +280,7 @@
                             </div>
                         </div>
                          <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="./assets/car-lists/custom-img4.jpg" alt="post-1">
+                            <img src="./assets/car-lists/custom-img4.jpg" alt="post-1" height="290rem">
                             <div class="blog-title">
                                 <h3>London Fashion week's continued the evolution</h3>
                                 <button class="btn btn-blog">Fashion</button>
@@ -398,36 +402,13 @@
                 </div>
                 <aside class="sidebar">
                     <div class="category">
-                        <h2>Category</h2>
-                        <ul class="category-list">
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
-                                <a href="#">Software</a>
-                                <span>(05)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
-                                <a href="#">Techonlogy</a>
-                                <span>(02)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
-                                <a href="#">Lifestyle</a>
-                                <span>(07)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
-                                <a href="#">Shopping</a>
-                                <span>(01)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
-                                <a href="#">Food</a>
-                                <span>(08)</span>
-                            </li>
-                        </ul>
                     </div>
                     <div class="popular-post">
                         <h1>Our Crew</h1>
                         <div class="post-content" data-aos="flip-up" data-aos-delay="200">
                             <div class="post-image">
                                 <div>
-                                    <img src="./assets/staff/my_pic.jpg" class="img" alt="blog1">
+                                    <img src="./assets/staff/staff-josh.PNG" class="img" alt="blog1">
                                 </div>
                                 <div class="post-info flex-row">
                                     <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Team Lead</span>
@@ -440,12 +421,10 @@
                         <div class="post-content" data-aos="flip-up" data-aos-delay="300">
                             <div class="post-image">
                                 <div>
-                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                    <img src="./assets/staff/staff-manuel.PNG" class="img" alt="blog1">
                                 </div>
                                 <div class="post-info flex-row">
-                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
-                                        2019</span>
-                                    <span>2 Commets</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp; Senior Developer</span>
                                 </div>
                             </div>
                             <div class="post-title">
@@ -455,12 +434,11 @@
                         <div class="post-content" data-aos="flip-up" data-aos-delay="400">
                             <div class="post-image">
                                 <div>
-                                    <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
+                                    <img src="./assets/staff/staff-frank.PNG" class="img" alt="blog1" height="50%">
                                 </div>
                                 <div class="post-info flex-row">
-                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
-                                        2019</span>
-                                    <span>2 Commets</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;UI/UX Designer
+                                    </span>
                                 </div>
                             </div>
                             <div class="post-title">
@@ -470,12 +448,10 @@
                         <div class="post-content" data-aos="flip-up" data-aos-delay="500">
                             <div class="post-image">
                                 <div>
-                                    <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                                    <img src="./assets/staff/esther.jpg" class="img" alt="blog1">
                                 </div>
                                 <div class="post-info flex-row">
-                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
-                                        2019</span>
-                                    <span>2 Commets</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Content Writer</span>
                                 </div>
                             </div>
                             <div class="post-title">
@@ -485,12 +461,10 @@
                         <div class="post-content" data-aos="flip-up" data-aos-delay="600">
                             <div class="post-image">
                                 <div>
-                                    <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                                    <img src="./assets/staff/staff-edmond.PNG" class="img" alt="blog1">
                                 </div>
                                 <div class="post-info flex-row">
-                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
-                                        2019</span>
-                                    <span>2 Commets</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Network/Website Administrator</span>
                                 </div>
                             </div>
                             <div class="post-title">
@@ -571,10 +545,9 @@
         </div>
         <div class="rights flex-row">
             <h4 class="text-gray">
-                Copyright ©2019 All rights reserved | made by
-                <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
-                    Channel</a>
-            </h4>
+            Copyright ©2021 All rights reserved | made by
+            <a href="#" target="_black">Group 5 <i class="fab fa-users"></i></a>
+        </h4>
         </div>
         <div class="move-up">
             <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>

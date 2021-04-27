@@ -2,6 +2,8 @@
 @import url('../css/fonts.css');
 @import url('./custom.css');
 @import url('./animations.css');
+@import url('./all.css');
+@import url('./signup.css');
 
 
 html, body{
@@ -137,6 +139,7 @@ li{
     display: flex;
     margin: 0;
 }
+
 .nav .nav-brand .text-gray{
     font-family: var(--Pacifico);
     font-weight: 600;
@@ -390,7 +393,7 @@ main .post-content .post-title a{
 .site-content .sidebar .popular-post h2{
     padding-top: 8rem;
 }
-
+ 
 .site-content .sidebar .popular-post .post-info{
     padding: .4rem .1rem !important;
     bottom: 0rem !important;
@@ -398,6 +401,7 @@ main .post-content .post-title a{
     border-radius: 0rem !important;
     background: white !important;
 }
+.sute-c
 
 .site-content .sidebar .popular-post .post-title a{
     font-size: 1rem;

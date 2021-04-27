@@ -349,7 +349,7 @@
   
   .reservation .watermark {
     position: relative;
-    opacity: .08;
+    opacity: .08 !important;
     font-size: 6rem !important;
     font-weight: 700 !important;
     top: -125px;
