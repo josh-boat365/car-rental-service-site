@@ -1,2 +1,2 @@
-# Blooger_Website
-This is the complete blooger website create using html and css
+# Rent-Smart Car Rental Site
+This is a Website to help a small firm who is interested in car renting to meet their short-mid-tem goals 
