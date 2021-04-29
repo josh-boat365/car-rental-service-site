@@ -362,6 +362,81 @@ main .post-content .post-title a{
     color: var(--white);
 }
 
+/* -------x-------- Contact Section --------x-------*/
+
+.contact-item {
+    padding: 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+    .contact-item {
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.contact-item .icon {
+    width: 70px;
+    height: 70px;
+    color: #da1c36;
+    background-color: transparent;
+    display: inline-block;
+    border: 3px dashed #da1c36;
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    border-radius: 50%;
+}
+
+.contact-item .title {
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+.contact-item p {
+    margin-top: 15px;
+}
+
+.contact-form-area {
+    margin-top: 70px;
+}
+
+.contact-form-area .title {
+    text-transform: capitalize;
+}
+
+.contact-form-area .contact-form {
+    margin-top: 30px;
+}
+
+.contact-form-area .contact-form .frm-group {
+    margin-bottom: 30px;
+}
+
+.contact-form-area .contact-form .frm-group input[type="submit"] {
+    width: auto;
+    background-color: #da1c36;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 12px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+/* input, textarea {
+    padding: 10px 20px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+} */
+
+
+/* -------x-------- Contact Section--------x-------*/
+
+
 /* -------x-------- Site Content --------x-------*/
 
 
