@@ -427,11 +427,81 @@ main .post-content .post-title a{
     cursor: pointer;
 }
 
-/* input, textarea {
-    padding: 10px 20px;
-    border: 1px solid #e5e5e5;
-    width: 100%;
-} */
+/*
+  about-section css */
+  .about-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-section .element {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+@media (max-width: 1750px) {
+    .about-section .element {
+        right: -60px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .about-section .element {
+        right: -140px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .about-section .element {
+        right: -200px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-section .element {
+        display: none;
+    }
+}
+
+@media (max-width: 1750px) {
+    .about-section .element img {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .about-section .element img {
+        max-width: 65%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .about-section .element img {
+        max-width: 50%;
+    }
+}
+
+.about-section .block-area {
+    padding-bottom: 180px;
+}
+
+@media (max-width: 1750px) {
+    .about-section .block-area {
+        padding-bottom: 105px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .about-section .block-area {
+        padding-bottom: 0;
+    }
+}
+
+.about-section .block-header .title {
+    font-weight: 700;
+    margin-top: -10px;
+}
 
 
 /* -------x-------- Contact Section--------x-------*/
