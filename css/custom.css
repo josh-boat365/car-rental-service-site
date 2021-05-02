@@ -3,10 +3,11 @@
     background-color: black;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-between !important;
     border: black solid 2px;
-    padding: 1rem;
-    height: 2.8rem;
+    padding: 1%;
+    font-size: 15px;
+    height: 3vh;
     font-family: var(--Lexend);
 }
 .contact-bar a, .contact-bar li{
@@ -28,7 +29,7 @@
 .nav-search{
     position: relative;
     top: -1.5rem;
-    right: 2rem;
+    right: 1%;
     width: 18rem;
     border-radius: .5rem;
   }
