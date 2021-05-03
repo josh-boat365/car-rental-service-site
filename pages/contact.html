@@ -21,72 +21,7 @@
 
     <!-- Custom Style   -->
     <link rel="stylesheet" href="../css/Style.css">
-    
-    <!-- <link rel="stylesheet" href="../assets/bootstrap/_css/bootstrap.min.css"> -->
-
-    <style>
-
-      .hero {
-        border: 1px solid black;
-      }
-
-      .contact-section {
-        border: 1px solid black;
-        position: relative;
-        top: 10%;
-      }
-      
-        input, textarea {
-    padding: 10px 20px;
-    border: 1px solid #e5e5e5;
-    width: 100%;
-        }
-
-    .input {
-        display: flex;
-    }
-
-    #input {
-        margin-right: 27%;
-        width: 30%;
-}
-    #input1 {
-        width: 30%;
-
-    }
-
-    textarea {
-    min-height: 150px;
-    resize: none;
-}
-
-    .flex {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .bg_img {
-        background-image: url(../assets/Background-image.png);
-        background-position: center;
-      background-size: 100%;    
-      }
-
-    .page-title{
-
-        color: whitesmoke;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-transform: capitalize;
-    }
-
-    .page-list {
-        display: flex;
-    }
-
-
-    </style>
-    
+        
 </head>
 
 <body>
@@ -124,16 +59,16 @@
                         <a href="../Index.html">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="./pages/car-brands.html">Car Brands</a>
+                        <a href="./car-brands.html">Car Brands</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
                     <li class="nav-link ">
-                        <a href="#">About Us</a>
+                        <a href="./about.html">About Us</a>
                     </li>
                     <li class="nav-link">
-                        <a href="contact.html">Contact Us</a>
+                        <a href="./contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -149,35 +84,29 @@
     <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
      <!-- inner-apge-banner start -->
-  <div class="hero">
-    <section class="inner-page-banner bg_img overlay-3" >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="page-title">get in touch with us</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+  <section class="hero">
+    <div class="hero-text" data-aos="fade-right" data-aos-delay="400">
+      Get In Touch With US 
+    </div>
+  </section>
   <!-- inner-apge-banner end -->
-
+  <br><br><br>
     <!----------------------------- Contact Site Section ------------------------------>
 
     <section class="contact-section pt-120 pb-120 ">
         <div class="container ">
           <div class="row flex">
             <div class="col-lg-4">
-              <div class="contact-item text-center">
+              <div class="contact-item  text-center" data-aos="fade-right" data-aos-delay="400">
                 <div class="icon"><i class="fa fa-home"></i></div>
                 <div class="content">
                   <h4 class="title">office address</h4>
-                  <p>4920 Northwest 21st Avenue<br/> Medford, MN 55049 <br/>kigkong,USA</p>
+                  <p>Accra Technical University <br/> Barnes Road <br/>Computer Science Department</p>
                 </div>
               </div>
             </div><!-- contact-item end -->
             <div class="col-lg-4">
-              <div class="contact-item text-center">
+              <div class="contact-item text-center" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="fa fa-phone"></i></div>
                 <div class="content">
                   <h4 class="title">Phone Number</h4>
@@ -186,11 +115,11 @@
               </div>
             </div><!-- contact-item end -->
             <div class="col-lg-4">
-              <div class="contact-item text-center">
-                <div class="icon"><i class="fa fa-envelope-o"></i></div>
+              <div class="contact-item text-center" data-aos="fade-left" data-aos-delay="400">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
                 <div class="content">
                   <h4 class="title">Email Address</h4>
-                  <p>www.renten450info@gmil.com<br/>www.rentensupport.com<br/>facebook/renten.net</p>
+                  <p>rentsmart.365info@gmil.com<br/>www.rentsmart.365support.com<br/>facebook/rentsmart.365.net</p>
                 </div>
               </div>
             </div><!-- contact-item end -->
@@ -202,21 +131,21 @@
                 <form class="contact-form">
                   <div class="row">
                       <div class="input">
-                        <div class="col-lg-6" id="input">
+                        <div class="col-lg-6" id="input" data-aos="fade-right" data-aos-delay="400">
                             <div class="frm-group">
-                              <input type="text" name="contact_name" id="contact_name" placeholder="Name*">
+                              <input type="text" name="contact_name" class="input-field" id="contact_name" placeholder="Name" required>
                             </div>
                           </div>
-                          <div class="col-lg-6" id="input1">
+                          <div class="col-lg-6" id="input1" data-aos="fade-left" data-aos-delay="400">
                             <div class="frm-group">
-                              <input type="email" name="contact_email" id="contact_email" placeholder="Email*">
+                              <input type="email" name="contact_email" class="input-field" id="contact_email" placeholder="Email" required>
                             </div>
                           </div>
                       </div>
                     
                     <div class="col-lg-12">
-                      <div class="frm-group">
-                        <textarea placeholder="Write your comment"></textarea>
+                      <div class="frm-group" data-aos="fade-up" data-aos-delay="400">
+                        <textarea type="text" placeholder="Write your comment" class="input-field"></textarea>
                       </div>
                     </div>
                     <div class="col-lg-12">
@@ -278,7 +207,7 @@
         <div class="rights flex-row">
             <h4 class="text-gray">
             Copyright ©2021 All rights reserved | made by
-            <a href="#" target="_black">Group 5 <i class="fab fa-users"></i></a>
+            <a href="#" target="_black">Group 5 ~ Accra Technical University<i class="fab fa-users"></i></a>
         </h4>
         </div>
         <div class="move-up">

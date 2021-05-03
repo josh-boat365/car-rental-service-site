@@ -18,8 +18,11 @@
     color: orangered;
     font-size: 1.5rem;
 }
+.contact-bar li:hover{
+   color: rgb(241, 46, 154);
+}
 .login a:hover{
-    color: rgb(240, 56, 126);
+    color: rgb(241, 46, 154);
 }
  .nav-search{
   padding: 1rem;
@@ -364,7 +367,7 @@
   .reservation img {
     width: 65%;
     position: relative;
-    top: -600px;
+    top: -570px;
   }
   
   .rsrvd-container {
@@ -377,7 +380,7 @@
     padding: 1rem;
     overflow: hidden;
     top: 88px;
-    left: 300px;
+    left: 190px;
     background-color: white;
   }
   
@@ -392,7 +395,7 @@
   }
   .rsrvd-container .d-flex-inpt{
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-evenly !important;
   }
   
   #rb-margin {
@@ -413,7 +416,7 @@
   .form-control{
     border: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 3px;
     margin-right: 5px;
   }
   .form-control::placeholder{
@@ -423,3 +426,161 @@
   .inner-bg {
     background-color: #f2f2f2;
   }
+  /* About Page */
+    .hero {
+        background-image: url('../assets/Background-image.png');
+        background-position: center;
+        background-size: 100%;
+        height: 40vh;
+      }
+      .hero .hero-text{
+        color: white;
+        font-size: 5rem;
+        text-align: center;
+        padding-top: 5rem;
+        font-family: var(--Lexend);
+      }
+
+      .contact-section {
+        position: relative;
+        top: 10%;
+      }
+      
+        input, textarea {
+    padding: 10px 20px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+        }
+        .input-field:focus{
+          outline: 2px solid rgb(245, 91, 35) ;
+        }
+
+    .input {
+        display: flex;
+    }
+
+    #input {
+        margin-right: 27%;
+        width: 30%;
+}
+    #input1 {
+        width: 30%;
+
+    }
+
+    textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-title{
+
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+    }
+
+    .page-list {
+        display: flex;
+    }
+    /* -------x-------- Contact Section --------x-------*/
+
+.contact-item {
+    padding: 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+    .contact-item {
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.contact-item .icon {
+    width: 70px;
+    height: 70px;
+    color: orangered;
+    background-color: transparent;
+    display: inline-block;
+    border: 3px dashed orangered;
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    border-radius: 50%;
+}
+
+.contact-item .title {
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+.contact-item p {
+    margin-top: 15px;
+}
+
+.contact-form-area {
+    margin-top: 70px;
+}
+
+.contact-form-area .title {
+    text-transform: capitalize;
+}
+
+.contact-form-area .contact-form {
+    margin-top: 30px;
+}
+
+.contact-form-area .contact-form .frm-group {
+    margin-bottom: 30px;
+}
+
+.contact-form-area .contact-form .frm-group input[type="submit"] {
+    width: auto;
+    background-color: orangered;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 12px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+/* Car-Brands */
+.car-brands{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.car-brands .car-cards{
+  margin: 2rem 0rem 1rem 2rem;
+  padding: 1rem;
+  width: 50rem;
+  height: 100%;
+  border-radius: 1rem;
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+/* what we do  */
+blockquote{
+  position: relative;
+  top: 5rem;
+  margin: 3rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--Lexend);
+}
+blockquote i{
+  font-size: 4rem;
+  color: orangered;
+}
