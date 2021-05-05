@@ -428,10 +428,10 @@
   }
   /* Contact-Us Page */
     .hero {
-        background-image: url('../assets/Background-image.png');
+        background-image: url('../assets/bg.png');
         background-position: center;
         background-size: 100%;
-        height: 40vh;
+        height: 55vh;
       }
       .hero .hero-text{
         color: white;
@@ -626,6 +626,9 @@ blockquote i{
 }
 /* --------what we do--------  */
 /* Testimonial */
+.testimonial{
+  padding-top: 1rem;
+}
 .testimonial-flex{
   display: flex;
   flex-direction: row;
