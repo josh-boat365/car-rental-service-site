@@ -21,13 +21,12 @@
 
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/Style.css">
-    
 
 </head>
 
 <body>
      <!-- --------------Address - Bar---------------- -->
-     <div class="contact-bar ">
+     <div class="contact-bar">
         <li><i class="fa fa-compass"></i> Accra Technical University - Barnes Road, Computer Science Department</li>
         <li><i class="fa fa-phone"></i> +233550746180/+233205391507</li>
         <li><i class="fa fa-envelope"></i> rentsmart.365@gmail.com</li>
@@ -35,12 +34,12 @@
           <a href="./pages/signup.html"><i class="fas fa-user"></i> Login/Sign Up</a>
         </div>
             <!-- Search - Bar -->
-            <form onsubmit="event.preventDefault();" role="search" aria-label="search" class="nav-search">
+        <form action="./pages/car-brands.html" onsubmit="event.preventDefault();" role="search" aria-label="search" class="nav-search" >
                 <input class="search"  type="search" placeholder="Search..." autofocus required />
                 <button class="search-btn" type="submit">Go</button>    
         </form>
       </div>
-
+      <!-- ------x------Address-----x----- - Bar  -->
 
     <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
@@ -63,7 +62,7 @@
                         <a href="./pages/car-brands.html">Car Brands</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Archive</a>
+                        <a href="./pages/testimonial.html">Testimonial</a>
                     </li>
                     <li class="nav-link ">
                         <a href="./pages/about.html">About Us</a>
@@ -200,7 +199,7 @@
         <form action="" method="get">
             <div class="input-fields d-flex-inpt py-3">
                 <select class="form-control form-control-sm inner-bg" name="car-list" id="" aria-placeholder="select your car">
-                    <option value="Select Your Car" selected>Select Your Car</option>
+                    <option value="Select Your Car" selected>Car Brands</option>
                     <option value="car1">
                         Mercedes Benz AMG
                     </option>
@@ -217,11 +216,27 @@
                         Nissan
                     </option>
                 </select>
-    
-                <input class="ms-3 form-control form-control-sm inner-bg" type="text" placeholder="Pick up location" required>
-                <input class="ms-3 form-control form-control-sm inner-bg" type="text" placeholder="Select a date" required>
-                <input class="ms-3 form-control form-control-sm inner-bg" type="text" placeholder="Hours of journey" required>
-                <button type="submit" id="button-color"  class="ms-3 form-control form-control-sm">BOOK NOW</button>
+     <select class="form-control form-control-sm inner-bg" name="car-list" id="" aria-placeholder="Pick a location" >
+                    <option value="Select Your Car" selected>Locations in Accra</option>
+                    <option value="car1">
+                        Amasaman
+                    </option>
+                    <option value="car1">
+                        Airport Residential Area
+                    </option>
+                    <option value="car1">
+                        Spintex
+                    </option>
+                    <option value="car1">
+                        Tema
+                    </option>
+                    <option value="car1">
+                        Teshi
+                    </option>
+                </select>
+                <input class=" form-control form-control-sm inner-bg" type="date" aria-placeholder="Select a date" required>
+                <input class=" form-control form-control-sm inner-bg" type="time" aria-placeholder="Hours of journey" required>
+                <button type="submit" id="button-color"  class=" form-control form-control-sm">BOOK NOW</button>
             </div>
         </form>
        
@@ -301,18 +316,120 @@
         <section class="container">
             <div class="site-content">
                 <div class="posts">
-                    <section class="what-we-do">
+            <section class="what-we-do">
                         <blockquote>
                             <i class="fa fa-quote-left"></i>
                             We are truly grateful to you for choosing us as your Best partner went it comes to car rentals and 
                             giving us the opportunity to grow.
                             Your fulfillment is our ultimate priority.
-                            <caption>
+                            <br><caption>
                                 ~Joshua Nyarko Boateng- Team Lead.
                             </caption>
-                        </blockquote>
-                    </section>
+                        </blockquote><br><hr><br>
+                <div class="intro">
+                    <div class="cust-fedback">
+                        <h3>Customer Feedback</h3>
+                        <p class="message">
+                        <i class="fa fa-quote-left"></i>
+                        By far the best team i've ever worked with. They truly understood the requirements i was going for and they nailed it!
+                        </p>
+                    </div><br><hr><br>
+                <div class="why-us">
+                <h3>WHY NOT CHOOSE US?</h3>
+                <p class="text-intro">
+                    Rent Smart provides wholistic services and solutions to individuals and businesses in 
+                    the area of vehicle leasing/rental, recruitment and training for support staff, 
+                    driver outsourcing, fleet management and transport services. We develop skills, resources, 
+                    knowledge and invent
+                    applications necessary to consistently deliver value-added service to our clients.
+                </p><br><hr><br>
+                <ul class="values">
+                    <h3>Our Core values</h3>
+                    <li>We value trust and honesty</li>
+                    <li>We are committed to excellence</li>
+                    <li>We are committed to employing the best Health, Safety and</li>
+                    <li>Environment techniques and approach worldwide.</li>
+                    <li>We are committed to promoting capacity development and learning to support all aspects of our business operations</li>
+                </ul>
                 </div>
+                <br><hr><br>
+                </div>
+            </section>
+            <!-- -----------------Car -Brands-------------- -->
+             <section class="car-brands">
+              <div class="brand-head">
+                  Our Fleet Brands
+              </div>
+              <div class="brand-logos" data-aos="flip-up" data-aos-delay="400">
+                  <img src="./assets/car-lists/logos/Untitledcar brands.svg" alt="">
+              </div>
+            </section>
+            <!-- --------x---------Car -Brands-------x------- -->
+            <section class="testimonial">
+                <div class="brand-head-tsm">Testimonials</div>
+                <div class="testimonial-flex">
+                    <div class="cards" data-aos="fade-left" data-aos-delay="400">
+                         <img src="./assets/car-lists/logos/card-1.jpg" alt="">
+                    <div class="mg-btm">
+                         <h3>Celestine Amoako</h3>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Obiviously it's natural to be skeptic about anything renting cars
+                        from peolple you don't really have family or a friendship relationship with.
+                        But "Rent Smart" makes you feel like family when it comes to their services.
+                        They have cool and affordable rates. 
+                    </p>
+                    </div>
+                    </div>
+                    <div class="cards" data-aos="fade-up" data-aos-delay="400">
+                        <img src="./assets/car-lists/logos/card-2.jpg" alt="">
+                    <div class="mg-btm">
+                         <h3>Nana Kwame Nyarko</h3>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Obiviously it's natural to be skeptic about anything renting cars
+                        from peolple you don't really have family or a friendship relationship with.
+                        But "Rent Smart" makes you feel like family when it comes to their services.
+                        They have cool and affordable rates. 
+                    </p>
+                    </div>
+                    </div>
+                    <div class="cards" data-aos="fade-right" data-aos-delay="400">
+                        <img src="./assets/car-lists/logos/card-3.jpg" alt="">
+                    <div class="mg-btm">
+                         <h3>Joana Boateng</h3>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Obiviously it's natural to be skeptic about anything renting cars
+                        from peolple you don't really have family or a friendship relationship with.
+                        But "Rent Smart" makes you feel like family when it comes to their services.
+                        They have cool and affordable rates. 
+                    </p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+                </div>
+               
+                
 
                 <aside class="sidebar">
                     <div class="category">
@@ -343,7 +460,7 @@
                             </div>
                             <div class="post-title">
                                 <a href="#">New data recording system to better analyse road accidents</a>
-                            </div>
+                            </div>  
                         </div>
                         <div class="post-content" data-aos="flip-up" data-aos-delay="400">
                             <div class="post-image">
@@ -388,6 +505,7 @@
                     </div>
                 </aside>
             </div>
+
         </section>
 
         <!-- -----------x---------- Site Content -------------x------------>

@@ -330,122 +330,9 @@ main .site-content .post-content > .post-image .img{
 
 main .site-content .post-content > .post-image .img:hover{
     transform: scale(1.3);
-}
+} 
 
-main .site-content .post-content > .post-image .post-info span{
-    margin: 0 .5rem;
-}
-
-main .post-content .post-title a{
-    font-family: var(--Anton);
-    font-size: 1.5rem;
-}
-
-.site-content .post-content .post-title .post-btn{
-    border-radius: 0;
-    padding: .7rem 1.5rem;
-    background: var(--sky);
-}
-
-.site-content .pagination{
-    justify-content: center;
-    color: var(--text-gray);
-    margin: 4rem 0;
-}
-
-.site-content .pagination a{
-    padding: .6rem .9rem;
-    border-radius: 2rem;
-    margin: 0 .3rem;
-    font-family: var(--Lexend);
-}
-
-.site-content .pagination .pages{
-    background: var(--text-gray);
-    color: var(--white);
-}
-
-
-  about-section css */
-  .about-section {
-    position: relative;
-    overflow: hidden;
-}
-
-.about-section .element {
-    position: absolute;
-    top: 120px;
-    right: 0;
-}
-
-@media (max-width: 1750px) {
-    .about-section .element {
-        right: -60px;
-    }
-}
-
-@media (max-width: 1550px) {
-    .about-section .element {
-        right: -140px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .about-section .element {
-        right: -200px;
-    }
-}
-
-@media (max-width: 991px) {
-    .about-section .element {
-        display: none;
-    }
-}
-
-@media (max-width: 1750px) {
-    .about-section .element img {
-        max-width: 85%;
-    }
-}
-
-@media (max-width: 1550px) {
-    .about-section .element img {
-        max-width: 65%;
-    }
-}
-
-@media (max-width: 1199px) {
-    .about-section .element img {
-        max-width: 50%;
-    }
-}
-
-.about-section .block-area {
-    padding-bottom: 180px;
-}
-
-@media (max-width: 1750px) {
-    .about-section .block-area {
-        padding-bottom: 105px;
-    }
-}
-
-@media (max-width: 1550px) {
-    .about-section .block-area {
-        padding-bottom: 0;
-    }
-}
-
-.about-section .block-header .title {
-    font-weight: 700;
-    margin-top: -10px;
-}
-
-
-/* -------x-------- Contact Section--------x-------*/
-
-
-/* -------x-------- Site Content --------x-------*/
+/* -------x-------- Site Content --------x------- */
 
 
 /* --------------- Sidebar ----------------------- */
@@ -483,7 +370,9 @@ main .post-content .post-title a{
     border-radius: 0rem !important;
     background: white !important;
 }
-.sute-c
+.site-content .sidebar .popular-post .post-info i{
+    color: orangered;
+}
 
 .site-content .sidebar .popular-post .post-title a{
     font-size: 1rem;
