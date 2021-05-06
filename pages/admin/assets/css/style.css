@@ -1664,7 +1664,7 @@ html.menu-opened body {
 -----------------------*/
 
 .sidebar {
-    background-color: #1b5a90;
+    background-color: #151616;
    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
     bottom: 0;
     left: 0;
@@ -1674,6 +1674,9 @@ html.menu-opened body {
     transition: all 0.2s ease-in-out 0s;
     width: 240px;
     z-index: 1001;
+}
+.sidebar i{
+	color: orangered;
 }
 .sidebar.opened {
 	-webkit-transition: all 0.4s ease;
