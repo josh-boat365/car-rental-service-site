@@ -1,0 +1,15 @@
+.content-wrapper {
+    background-image: linear-gradient(
+36deg
+, #ff4500, #ff8355) !important;
+    
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 13px orangered;
+}
+
+.col-lg-3 {
+    flex: 0 0 20%;
+    max-width: 25%;
+}
