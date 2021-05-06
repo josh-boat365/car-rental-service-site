@@ -671,3 +671,33 @@ blockquote i{
 .testimonial .cards .mg-btm{
   margin-top: -7rem;
 }
+/* Car - Brands - Page */
+.car-brands-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.car-brands-page .car-cards{
+  margin: 3rem 0rem 3rem 3rem ;
+  width: 40%;
+  padding: 2rem;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.cr-brnd-wdt{
+width: 70rem;
+margin: 2rem 2rem 0rem 15rem;
+}
+.wdt{
+  width: 70rem;
+margin: 2rem 2rem 0rem 15rem;
+}
+.car-h1{
+  width: 12rem;
+  color: black;
+  margin: 3rem;
+  border: 5px dashed orangered;
+  padding: 2rem;
+}
+.car-cards h2{
+  padding: 2rem;
+}
